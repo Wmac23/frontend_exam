@@ -15,7 +15,7 @@
     #0885ff33 55deg,
     #54d6ff33 120deg,
     #0071ff33 160deg,
-    transparent 360deg
+    transparent 360degF
   );
   --secondary-glow: radial-gradient(
     rgba(255, 255, 255, 1),
@@ -100,8 +100,3 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}

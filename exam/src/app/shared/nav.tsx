@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <nav className={navStyles.nav}>
       <img className={navStyles.logo} src="logo.png" alt="" />
-      <h2>MyPokémon</h2>
+      <img className={navStyles.title} src="mypokemon.png" alt="" />
       <ul className={navStyles.menu}>
       </ul>
     </nav>

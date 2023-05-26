@@ -15,6 +15,12 @@
     width: 50px;
     height: auto;
   }
+
+  .title {
+    margin-top: 10px;
+    width: auto;
+    height: 30px;
+  }
   
   .menu {
     display: flex;
@@ -32,7 +38,15 @@
   }
   
   .menu li a {
-    font-family: 'Karla';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .menu p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;

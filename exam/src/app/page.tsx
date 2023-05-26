@@ -5,9 +5,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Nav />
-      <div className={styles.description}>
+      <div>
       <h2>Welcome to</h2>
-     <h1>MyPokémon</h1>
+      <br />
+     <img src="mypokemon.png" alt="" />
+      </div>
+      <div>
+        <button className={styles.buttons}>See Pokémon</button>
+        <button className={styles.buttons}>My Pokémon</button>
       </div>
       <Footer/>
     </main>
